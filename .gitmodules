@@ -1,0 +1,6 @@
+[submodule "PCB"]
+	path = PCB
+	url = https://github.com/ModischFabrications/turn_indicator_pcb
+[submodule "Code"]
+	path = Code
+	url = https://github.com/ModischFabrications/turn_indicator_code
