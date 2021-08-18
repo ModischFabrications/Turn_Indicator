@@ -14,7 +14,21 @@ TODO add pictures
 
 ## Design choices
 
-idempotent inputs instead of toggles, resists bouncing and is easier to understand
+Using idempotent inputs instead of toggles, resists bouncing and is easier to understand. 
+
+## CAD
+
+Zipties for handlebar mounts and indicators? 
+
+Using screws is nice if you have a clear mating surface and thick walls. A cage-style-basket or the handlebar has neither of those. 
+Therefore you need either a coupling plate or, as done in my case, cheap and flexible zipties. They can adapt to a wide variety of widths and forms while being cheap and readily available. 
+
+The handlebar mount is just a extra to increase grip and can be done as one half or both. bake sure to prevent rotation when pressing by padding with a silicone/rubber sheet underneath. Screwing in or out of the mounting plate is irrelevant, in this case the screw is just easier to access from the clamp. 
+
+Contact surfaces for covers for the enclosures are slanted to decrease the chance of water creeping in. 
+
+The cutout of the LEDs is beveled by design to prevent a hard cutoff of the light cone, this bevel should feather the borders a bit. 
+
 
 ## Power
 
@@ -34,4 +48,4 @@ Nano board: 30mA when on and working
 0.0mA with switch open
 0.8mA without load, probably power led
 
-Conclusion: Disconnect at board, use whatever code and HW you want. 
+Conclusion: Power is disconnect on the boost board, so you can use whatever code and HW you want. 
